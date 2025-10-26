@@ -28,7 +28,7 @@ const About: React.FC = () => {
             className={`md:w-1/3 flex justify-center transition-all duration-700 ease-out ${isImgVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}
           >
             <img 
-              src="assets/mihirchakma.png"
+              src="./assets/mihirchakma.png"
               alt={PERSONAL_INFO.name} 
               className="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover shadow-lg border-4 border-blue-100 dark:border-blue-800"
             />
