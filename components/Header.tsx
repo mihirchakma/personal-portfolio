@@ -58,7 +58,7 @@ const Header: React.FC<HeaderProps> = ({ theme, toggleTheme }) => {
                   {theme === 'light' ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
               </button>
               <a
-                href="assets/mihir-chakma-cv.pdf" // NOTE: Add your CV to the `public` folder
+                href="./assets/mihir-chakma-cv.pdf" // NOTE: Add your CV to the `public` folder
                 download
                 className="ml-4 inline-flex items-center gap-2 bg-blue-500 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-600 transition-colors shadow-sm"
               >
@@ -99,7 +99,7 @@ const Header: React.FC<HeaderProps> = ({ theme, toggleTheme }) => {
               </a>
             ))}
              <a
-                href="assets/mihir-chakma-cv.pdf" // NOTE: Add your CV to the `public` folder
+                href="./assets/mihir-chakma-cv.pdf" // NOTE: Add your CV to the `public` folder
                 download
                 onClick={() => setIsMenuOpen(false)}
                 className="mt-4 inline-flex items-center justify-center gap-2 bg-blue-600 text-white font-semibold px-6 py-3 rounded-md shadow-lg hover:bg-blue-700 transition-transform transform hover:scale-105"

@@ -73,7 +73,7 @@ export const PROJECTS: Project[] = [
   {
     title: 'Blog Platform REST API',
     description: 'Developed a secure and scalable RESTful API using Python with FastAPI, featuring JWT authentication, CRUD operations for posts, and a PostgreSQL database.',
-    image: 'assets/blog-platform.svg',
+    image: './assets/blog-platform.svg',
     liveUrl: '#',
     repoUrl: '#',
     tags: ['Python', 'FastAPI', 'PostgreSQL', 'Docker'],
@@ -81,7 +81,7 @@ export const PROJECTS: Project[] = [
   {
     title: 'High-Performance CLI Tool',
     description: 'Built a command-line interface (CLI) tool in Rust for efficiently parsing and processing large CSV datasets, leveraging Rust\'s performance and memory safety.',
-    image: 'assets/real-time-analytics.svg',
+    image: './assets/real-time-analytics.svg',
     liveUrl: '#',
     repoUrl: '#',
     tags: ['Rust', 'CLI', 'Data Processing', 'Performance'],
@@ -89,7 +89,7 @@ export const PROJECTS: Project[] = [
   {
     title: 'AI Inference Microservice',
     description: 'An experimental microservice exploring Mojo for high-speed AI model inference. This project investigates Mojo\'s potential to accelerate Python-based AI workflows.',
-    image: 'assets/large-language-models.svg',
+    image: './assets/large-language-models.svg',
     repoUrl: '#',
     tags: ['Mojo', 'Python', 'AI', 'Microservice'],
   },
