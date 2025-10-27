@@ -1,5 +1,7 @@
 # My Personal Website
 
+- Web: https://www.mihirchakma.com
+
 ## Run Locally
 
 **Prerequisites:**  Node.js
